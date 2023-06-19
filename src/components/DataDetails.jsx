@@ -7,7 +7,6 @@ const DataDetails = function () {
   const id = params.details;
 
   const [req] = storeData.filter((e) => e.id === +id);
-  console.log(req);
 
   return (
     <div>
